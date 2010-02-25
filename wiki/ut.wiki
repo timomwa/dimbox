@@ -1,0 +1,19 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+The dimbox project uses javascript and css to create a div overlay with the light box effect.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  The dimbox javascript file and css can be used in many instances by calling : 
+
+    dimBox.settings.content = "This is an example of dimbox....BAAAKAAA. You can load a  html using jquery";
+    dimBox.loadDimBox();
+    dimBox.showDimmer();
+
+To close it, just call :
+ dimBox.closeDimmer();
+this destroys the divs created, cleaning up html and making it lighter
