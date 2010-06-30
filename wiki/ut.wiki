@@ -11,7 +11,7 @@ Add your content here.  Format your content with:
   The dimbox javascript file and css can be used in many instances by calling : 
 
     dimBox.settings.content = "This is an example of dimbox....BAAAKAAA. You can load a  html using jquery";
-    dimBox.loadDimBox();
+    dimBox.loadDimBox('width');
     dimBox.showDimmer();
 
 To close it, just call :
