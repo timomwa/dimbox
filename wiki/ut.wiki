@@ -10,10 +10,15 @@ The dimbox project uses javascript and css to create a div overlay with the ligh
 Add your content here.  Format your content with:
   The dimbox javascript file and css can be used in many instances by calling : 
 
-    dimBox.settings.content = "This is an example of dimbox....BAAAKAAA. You can load a  html using jquery";
+    dimBox.settings.content = "This is an example of dimbox..";
     dimBox.loadDimBox('width');
     dimBox.showDimmer();
 
 To close it, just call :
  dimBox.closeDimmer();
 this destroys the divs created, cleaning up html and making it lighter
+
+
+= Websites Using Dimbox =
+
+www.bidhaatele.com
